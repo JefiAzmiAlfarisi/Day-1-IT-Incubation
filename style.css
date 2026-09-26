@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: azure;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn-transition{
+    padding: 12px 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: background-color 1.5s;
+}
+
+.btn-transition:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.feature-card{
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 12px;
+
+    transition: transform 0.3s;
+}
+
+.feature-card:hover{
+    transform: scale(1.1);
+}
+.animation-card{
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: cornsilk;
+    border-radius: 12px;
+    animation: floating 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes floating {
+    from    {
+        transform: translateY(0);
+    }to{
+        transform: translateY(-20px);
+    }
+}
+.loading-section{
+    text-align: center;
+    padding: 50px 20px;
+}
+.loader{
+    width: 50px;
+    height: 50px;
+    margin: 25px auto;
+
+    border: 5px solid #dbeafe;
+    border-top: 5px solid #2563eb;
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,45 @@
+p{
+    color: blue;
+    background-color: aquamarine;
+    opacity: 0,3;
+}
+
+h1{
+    text-align: center;
+    text-decoration: unset;
+    text-transform: capitalize;
+    text-decoration: solid yellow;
+}
+
+.satu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: initial;
+}
+
+.pertama{
+    /* conten */
+    width: 350px;
+    height: 150px;
+    /* padding */
+    padding: 15px;
+    /* border */
+    border: 10px solid blue;
+    /* margin */
+    margin: auto;
+}
+
+.kedua{
+    padding: 7px;
+    border: 100px dashed darkblue;
+    margin-top: 40px;
+    background-color: maroon;
+    border-radius: 50%;
+    outline: 20px solid gray;
+}
+
+body{
+    background-image: url(IANNNNNN.jpeg);
+    
+}
